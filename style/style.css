@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/disintegration');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-image: url(/assets/fundo3.jpg );    
+    
+}
+
+.header {
+    background: #455927;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border: black 2px solid;
+    border-bottom: none;
+}
+
+.header h1 {
+    margin: 0;
+    font-family: "Lilita One", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em; color: #fffdd9; 
+}
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #D0D9D7;
+    border: black 2px solid;
+
+}
+
+.logo {
+
+    height: 50px;
+    width: 70px;
+
+}
+
+.logo2 {
+
+    height: 0;
+    width: 70px;
+
+}
+
+.texto-menu {
+
+    background: #D0D9D7;
+    color: #D0D9D7;
+
+}
+
+.cabecalho {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #D0D9D7;
+    color: #000000;
+    padding: 0.5rem;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar li:hover {
+
+    transition: 0.5s;
+    transform: scale(1.05);
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+
+    color: #096906;
+    
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+}
+
+.content {
+    flex: 3;
+    padding: 1rem;
+
+}
+
+.image-size {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    border-radius: 4%;
+    min-width: 100%;
+
+}
+
+.artigo1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    border: black 2px solid;
+    border-radius: 4%;
+    color: rgb(0, 0, 0);
+    background: #a89f9fdc;  
+
+}
+
+.artigo1:hover{
+     
+    transition: 0.5s;
+    transform: scale(1.03);
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.699);
+    background: #a89f9f;    
+
+}
+
+.artigo1 h2 {
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+
+.effect {
+
+    flex: 0 0 calc(50% - 5%)
+
+}
+
+.texto {
+
+    padding: 20px;
+
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.article {
+    flex: 0 0 calc(50% - 5%)
+}
+
+.content article {
+    margin-bottom: 2rem;
+}
+
+.content article h2 {
+    margin-bottom: 0.5rem;
+}
+
+.content article p {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: #798d8a;
+    max-width: 100%;
+}
+
+.sidebar h2 {
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 0.3rem;
+}
+
+.sidebar ul {
+
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.sidebar ul li + li {
+    
+    margin-top: 0.5rem;
+}
+
+.sidebar p {
+    
+    font-style: italic;
+    padding: 10px;
+}
+
+.sidebar h4 {
+
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.links {
+    border-top: 1px solid #bbb;
+    padding-bottom: 0.3rem;
+    padding-top: 0.7rem;
+    text-align: center;
+
+}
+
+.video {
+
+    padding: 10px;
+
+}
+
+#topo {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    background-color: #015513;
+    border-radius: 50%;
+    padding: 15px 15px 15px 15px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+    
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
