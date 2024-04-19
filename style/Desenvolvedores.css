@@ -1,0 +1,139 @@
+.sombra {
+     
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/desenvolv1.png);
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+
+}
+
+.section-fundo {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+    font-size: 5rem;
+
+}
+
+.section-fundo::after {
+
+    display: flex;
+    justify-content: center;
+    content: "";
+    height: 120vh;
+    width: 100%;
+    position: absolute;
+    z-index: 7;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0, 0, 0, 0) 10%, #000000 100%);
+
+}
+
+.sombra h1 {
+
+    -webkit-text-stroke: 4px;
+    -webkit-text-stroke-color: #00d9ff;
+    color: rgb(0, 5, 151);
+    width: 950px;
+    text-align: center;
+    z-index: 8;
+
+}
+
+.div-fundo {
+
+    background-image: url(/assets/fundo-program.png);
+    height: 150vh;
+
+}
+
+.section-desenv {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 100px;
+    color: #fff;
+    z-index: 10;
+    font-size: 20px;
+
+}
+
+.section-desenv::after {
+
+    display: flex;
+    justify-content: center;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -3;
+    background: linear-gradient(to top, rgba(0,0,0,0) 0, rgba(0, 0, 0, 0) 0%, #000 100%);
+
+}
+
+.section-desenv p {
+
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    text-align: justify;
+
+}
+
+.div-desenv{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    padding: 40px;
+    position: relative;
+    background-color: #01221b;
+    
+}
+
+.div-desenv::before, .div-desenv::after {
+
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    background: linear-gradient(45deg, #00d9ff, #00d9ff, #008ba3, #007185, #005f70, #003b46, #003a44,
+    #00d9ff, #00d9ff, #008ba3, #007185, #005f70, #003b46, #003a44,
+    #00d9ff, #00d9ff, #008ba3, #007185, #005f70, #003b46, #003a44);
+    background-size: 300%;
+    border-radius: 20px;
+    animation: AnimarBordadesenv 10s linear infinite;
+
+}
+
+@keyframes AnimarBordadesenv{
+
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 300%;
+    }
+
+}
+
+.div-desenv::after {
+
+    filter: blur(40px);
+
+}

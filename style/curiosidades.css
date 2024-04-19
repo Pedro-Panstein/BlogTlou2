@@ -1,0 +1,44 @@
+.fundo-curiosidades {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    background-image: url(/assets/fundo-curiosidades.png);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+.fundo-curiosidades h1 {
+
+    color: #fff;
+    -webkit-text-stroke: 4px;
+    -webkit-text-stroke-color: rgb(184, 25, 25);
+    text-align: center;
+
+}
+
+.texto {
+
+    border-radius: 200px;
+
+}
+
+.texto:hover {
+
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.texto p {
+
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(184, 25, 25);
+
+}

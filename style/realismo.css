@@ -1,0 +1,132 @@
+.main-realismo {
+
+    overflow: hidden;
+
+}
+
+.parallax {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#text {
+
+    position: absolute;
+    font-size: 4em;
+    color: #fff;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+
+}
+
+.parallax img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+}
+
+.fundo-parallax {
+
+    background-color: rgb(232, 254, 255);
+
+}
+
+.sec {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(131, 229, 233);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(#003329, #001d18, #00110e, #000000);
+    padding: 100px;
+    color: #fff;
+    z-index: 1;
+    font-size: 20px;
+
+}
+
+.sec h2 {
+
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+
+.sec p {
+
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    text-align: justify;
+
+}
+
+.sec ul {
+
+    padding-top: 15px;
+    padding-left: 50px;
+
+}
+
+.texto-sec {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    padding: 40px;
+    position: relative;
+    background-color: #01221b;
+    
+}
+
+.texto-sec::before, .texto-sec::after {
+
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 15px);
+    height: calc(100% + 15px);
+    background: linear-gradient(45deg, #00ff00, #00b600, #009100, #007400, #005e00, #004700, #003100,
+    #00ff00, #00b600, #009100, #007400, #005e00, #004700, #003100,
+    #00ff00, #00b600, #009100, #007400, #005e00, #004700, #003100);
+    background-size: 300%;
+    border-radius: 30px;
+    animation: AnimarBorda 20s linear infinite;
+
+}
+
+@keyframes AnimarBorda{
+
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 300%;
+    }
+
+}
+
+.texto-sec::after {
+
+    filter: blur(50px);
+
+}
