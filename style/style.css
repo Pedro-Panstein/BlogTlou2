@@ -349,8 +349,29 @@ iframe {
             padding-bottom: 30px;
             border-radius: 4%;
             max-width: 100%;
-            min-width: 30%;
+            min-width: 100%;
 
         }
+
+}
+
+@media (max-width: 1124px) {
+
+    .articles {
+
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+}
+
+@media (max-width: 886px){
+
+    .articles {
+
+        display: grid;
+
+    }
 
 }
