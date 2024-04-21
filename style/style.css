@@ -329,3 +329,28 @@ iframe {
     text-align: center;
     padding: 1rem;
 }
+
+/*Media qery*/
+
+@media (max-width: 1124px) {
+
+    .sidebar{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+        .image-size {
+
+            display: grid;
+            grid-column: auto;
+            padding-bottom: 30px;
+            border-radius: 4%;
+            max-width: 100%;
+            min-width: 30%;
+
+        }
+
+}
