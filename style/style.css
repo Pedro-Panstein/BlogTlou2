@@ -45,34 +45,10 @@ body {
     font-size: 3em; color: #fffdd9; 
 }
 
-.menu {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #D0D9D7;
-    border: black 2px solid;
-
-}
-
 .logo {
 
     height: 50px;
     width: 70px;
-
-}
-
-.logo2 {
-
-    height: 0;
-    width: 70px;
-
-}
-
-.texto-menu {
-
-    background: #D0D9D7;
-    color: #D0D9D7;
 
 }
 
@@ -104,6 +80,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .navbar li {
