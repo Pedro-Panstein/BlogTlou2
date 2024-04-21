@@ -196,8 +196,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background: #798d8a;
     max-width: 100%;
+    max-height: auto;
+}
+
+.fundo-sidebar {
+
+    background-color: #798d8a;
+
 }
 
 iframe {
@@ -249,7 +255,7 @@ iframe {
 .links {
 
     padding-bottom: 0.3rem;
-    padding-top: 0.7rem;
+    padding-top: 1rem;
     text-align: center;
 
 }
@@ -259,7 +265,8 @@ iframe {
     margin-top: 10px;
     border-top: 3px solid #bbb;
     border-bottom: 3px solid #bbb;
-    padding-bottom: 10px;
+    padding-bottom: 3%;
+    padding-top: 5%;
 
 }
 
@@ -298,7 +305,7 @@ iframe {
     color: white;
     background-color: #015513;
     border-radius: 50%;
-    padding: 10px 15px 15px 15px;
+    padding: 1% 1.2% 1% 1.2%;
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -398,6 +405,7 @@ iframe {
     .articles {
 
         display: grid;
+
 
     }
 
