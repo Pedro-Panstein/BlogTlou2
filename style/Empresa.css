@@ -6,8 +6,6 @@
 
 body {
 
-    display: flex;
-    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     color: #242424;
@@ -24,6 +22,87 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
     font-weight: 900;
 
+}
+
+.header {
+    background: #455927;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border: black 2px solid;
+    border-bottom: none;
+
+}
+
+.header h1 {
+    margin: 0;
+    font-family: "Lilita One", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 3em; color: #fffdd9; 
+}
+
+.logo {
+
+    height: 50px;
+    width: 70px;
+
+}
+
+.cabecalho {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho h1 {
+
+    margin: 0 auto;
+    padding-left: 4%;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #D0D9D7;
+    color: #000000;
+    padding: 0.5rem;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar li:hover {
+
+    transition: 0.5s;
+    transform: scale(1.05);
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+
+    color: #096906;
+    
 }
 
 .div {
@@ -132,7 +211,7 @@ section.module.content {
     justify-content: center;
     padding-left: 0px;
     height: 150vh !important;
-    width: 100%;
+    max-width: 100%;
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
@@ -189,3 +268,9 @@ section.module.parallax-1 {
 
 }
  
+/*media query*/
+
+@media (max-width: 1000px) {
+
+
+}
