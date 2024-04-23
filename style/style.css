@@ -31,7 +31,7 @@ body {
     color: #fff;
     padding: 1rem;
     text-align: center;
-    border: black 2px solid;
+    border: black 5px solid;
     border-bottom: none;
 
 }
@@ -74,6 +74,7 @@ body {
     background: #D0D9D7;
     color: #000000;
     padding: 0.5rem;
+    border: 5px solid black;
     
 }
 
