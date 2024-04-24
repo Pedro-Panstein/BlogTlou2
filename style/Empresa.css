@@ -210,7 +210,7 @@ section.module.content {
     flex-direction: column;
     justify-content: center;
     padding-left: 0px;
-    height: 150vh !important;
+    height: 200vh !important;
     max-width: 100%;
     position: relative;
     overflow: hidden;
@@ -299,7 +299,7 @@ section.module.parallax-1 {
         margin-bottom: 10%;
         background-color: transparent;
         border: #fff 2px solid ;
-        border-radius: 10%;
+        border-radius: 100px;
         backdrop-filter: blur(10px);
         z-index: 9;    
     
@@ -357,7 +357,7 @@ section.module.parallax-1 {
         margin-bottom: 10%;
         background-color: transparent;
         border: #fff 2px solid ;
-        border-radius: 8%;
+        border-radius: 50px;
         backdrop-filter: blur(10px);
         z-index: 9;    
     
@@ -392,7 +392,6 @@ section.module.parallax-1 {
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
-        text-align: justify;
         width: 100%;
         max-width: 60%;
         padding: 5%;
@@ -400,7 +399,7 @@ section.module.parallax-1 {
         margin-bottom: 10%;
         background-color: transparent;
         border: #fff 2px solid ;
-        border-radius: 5%;
+        border-radius: 30px;
         backdrop-filter: blur(10px);
         z-index: 9;    
     
@@ -410,6 +409,31 @@ section.module.parallax-1 {
 
         text-align: center;
 
+    }
+
+}
+
+@media (max-width: 586px) {
+
+    .container {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: center;
+        width: 100%;
+        max-width: 90%;
+        padding: 5%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        background-color: transparent;
+        border: 1px white solid;
+        border-radius: 30px;
+        backdrop-filter: blur(80px);
+        z-index: 9;    
+    
     }
 
 }
