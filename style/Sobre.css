@@ -147,4 +147,23 @@
     
         }
 
+        .texto-sobre p {
+
+            font-family: "Roboto", sans-serif;
+            background-color: #84fc9415; 
+            padding: 50px;
+            z-index: 9;
+        
+        }
+
+}
+
+@media (max-width: 330px) {
+    .div-sobre{
+     
+        font-size: 30px;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: white;
+    
+    }
 }

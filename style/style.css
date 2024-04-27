@@ -472,4 +472,59 @@ iframe {
 
     }
 
+    .cabecalho p, img {
+
+        display: none;
+
+    }
+
+    .navbar {
+
+        font-size: 12px;
+
+    }
+
+    .cabecalho h1 {
+
+        font-size: 30px;
+
+    }
+
+}
+
+@media (max-width: 248px) {
+
+    .navbar {
+
+        font-size: 8px;
+
+    }
+
+    .cabecalho h1 {
+
+        font-size: 20px;
+
+    }
+
+    .article {
+
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+
+    }
+
+    .texto {
+
+        font-size: 5px
+
+    }
+
+    .image-size {
+
+        height: 130px;
+        padding-bottom: 0px;
+
+    }
+
 }

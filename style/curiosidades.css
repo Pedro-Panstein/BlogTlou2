@@ -159,6 +159,13 @@ body {
 
     }
 
+    .texto h1 {
+
+        -webkit-text-stroke: 0px;
+        -webkit-text-stroke-color: red;
+
+    }
+
     .curiosidades img {
 
        display: none;
@@ -177,8 +184,9 @@ body {
 
     .fundo-curiosidades {
 
-        font-size: 20px;
+        font-size: 10px;
 
     }
+
 
 }
