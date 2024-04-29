@@ -130,3 +130,15 @@
     filter: blur(50px);
 
 }
+
+/*Media query*/
+
+@media (max-width: 941px) {
+    
+    #text {
+
+        font-size: 3em;
+
+    }
+
+}

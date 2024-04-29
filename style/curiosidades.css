@@ -166,27 +166,81 @@ body {
 
     }
 
+
     .curiosidades img {
 
-       display: none;
+        height: 200px;
+        width: 250px;
 
     }
 
     .texto p {
 
-        font-size: 20px;
+        font-size: 10px;
 
     }
 
-}
-
-@media (max-width: 390px) {
-
-    .fundo-curiosidades {
+    .curiosidades ul {
 
         font-size: 10px;
 
     }
 
+}
+
+@media (max-width: 694px) {
+
+    .curiosidades ul {
+
+        font-size: 10px;
+
+    }
+
+    .curiosidades img {
+
+        height: 150px;
+        width: 200px;
+
+    }
+
+}
+
+@media (max-width: 488px) {
+
+    .curiosidades ul {
+
+        font-size: 5px;
+
+    }
+
+    .curiosidades img {
+
+        height: 100px;
+        width: 150px;
+
+    }
+
+    .fundo-curiosidades {
+
+        font-size: 15px;
+
+    }
+
+}
+
+@media (max-width: 342px) {
+
+    .curiosidades ul {
+
+        font-size: 10px;
+        margin: 2%;
+
+    }    
+
+    .fundo-curiosidades h1 {
+
+        font-size: 20px;
+
+    }
 
 }

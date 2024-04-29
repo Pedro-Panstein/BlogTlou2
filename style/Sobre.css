@@ -43,7 +43,7 @@
 
 .section-sobre::after {
 
-    content: "a";
+    content: "";
     height: 100%;
     width: 100%;
     position: absolute;
@@ -83,7 +83,7 @@
     font-family: "Roboto", sans-serif;
     background-color: #84fc9415;
     border: #51ff68 10px double ;
-    border-radius: 5%;
+    border-radius: 30px;
     backdrop-filter: blur(10px);  
     padding: 50px;
     z-index: 9;
@@ -166,4 +166,22 @@
         -webkit-text-stroke-color: white;
     
     }
+}
+
+@media (max-width: 418px) {
+
+    .texto-sobre p {
+
+        font-family: "Roboto", sans-serif;
+        background-color: #84fc9415;
+        border: #51ff68 10px double ;
+        border-radius: 30px;
+        backdrop-filter: blur(10px);  
+        padding: 10%;
+        margin: 5%;
+        font-size: 20px;
+        z-index: 9;
+    
+    }
+
 }
