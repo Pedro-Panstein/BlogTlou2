@@ -209,13 +209,13 @@ body {
 
     .curiosidades ul {
 
-        font-size: 5px;
+        font-size: 10px;
 
     }
 
     .curiosidades img {
 
-        height: 100px;
+        height: 150px;
         width: 150px;
 
     }
@@ -223,6 +223,16 @@ body {
     .fundo-curiosidades {
 
         font-size: 15px;
+
+    }
+
+}
+
+@media (max-width: 392px) {
+
+    .curiosidades img {
+
+        display: none;
 
     }
 
