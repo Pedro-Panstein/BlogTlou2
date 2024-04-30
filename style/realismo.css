@@ -225,6 +225,35 @@
 }
 
 @media (max-width: 422px) {
+    
+    .sec {
+
+            display: flex;
+            justify-content: center;
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background: linear-gradient(#003329, #001d18, #00110e, #000000);
+            padding: 5% 0% 8% 0%;
+            color: #fff;
+            z-index: 300;
+            font-size: 20px;
+        
+        }
+
+        .parallax img {
+     
+            display: none;
+            background-color: black;
+        
+        } 
+
+        .fundo-parallax {
+
+            background: linear-gradient( #000000, #00110e, #001d18, #003329, #003329, #003329, #003329);
+        
+        }
 
     #text {
 
@@ -238,40 +267,13 @@
 
 @media (max-width: 343px) {
 
-    .sec {
-
-        display: flex;
-        justify-content: center;
-        background-color: rgb(0, 0, 0);
-        width: 100%;
-        height: 100%;
-        position: relative;
-        background: linear-gradient(#003329, #001d18, #00110e, #000000);
-        padding: 5% 0% 8% 0%;
-        color: #fff;
-        z-index: 300;
-        font-size: 20px;
     
-    }
 
     #text {
 
         font-size: 20px;
 
-    }
-
-    .parallax img {
-     
-        display: none;
-        background-color: black;
-    
-    }  
-    
-    .fundo-parallax {
-
-        background: linear-gradient( #000000, #00110e, #001d18, #003329, #003329, #003329, #003329);
-    
-    }
+    } 
 
 }
 

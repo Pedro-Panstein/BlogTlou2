@@ -3,7 +3,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    background-image: url(/assets/desenv-prolong.jpg);
+    background-image: url(/assets/wallpaper.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 130vh;
@@ -36,19 +36,20 @@
     width: 100%;
     position: absolute;
     z-index: 7;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0, 0, 0, 0) 40%, #000000, #003a00 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0, 0, 0, 0) 40%, #000000, #132112 100%);
 
 }
 
 .sombra h1 {
 
     -webkit-text-stroke: 5px;
-    -webkit-text-stroke-color: #006e25;
+    -webkit-text-stroke-color: #1c6835;
     color: rgb(255, 255, 255);
     width: 1000px;
     text-align: center;
     z-index: 8;
-    padding-top: 10%;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -58,7 +59,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    background: linear-gradient(#003a00, #003a00, #005007, #0f5019, #005007, #003a00, #000000, #000000);
+    background: linear-gradient(#132112, #122113, #142715, #0f3011, #082c0e, #142715, #001f02, #000000, #000000);
 
 }
 
@@ -67,7 +68,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 30px;
-    margin: 20% 10% 20% 10%;
+    margin: 5% 20% 20% 20%;
     text-align: justify;
     letter-spacing: 2px;
 
@@ -76,33 +77,270 @@
 .texto {
 
     border: solid black 4px;
-    background: linear-gradient(#012c00, #003307, #004609, #105313, #004609, #003307 ,#012c00, rgb(11, 49, 14));
+    background: linear-gradient(#012c00, #004609, #004609, #105313, #004609, #004609 ,#012c00, rgb(11, 49, 14));
     border-radius: 50px;
     padding: 4%;
 
 }
 
-.informacoes {
+.curiosidades {
 
-    font-family: "Montserrat", serif;
     height: 100%;
     width: 100%;
-    color: white;
-    background: linear-gradient( #000000, #003a00, #003a00, #0c4114, #0c4114, #0c4114, #003a00, #000000);
-    font-size: 20px;
-    padding: 20%;
+    background: linear-gradient( #000, #000, #112e0f, #112e0f, #112e0f, #112e0f, #112e0f)
 
 }
 
-.informacoes p {
+.curiosidades ul {
 
+    color: white;
+    padding: 3%;
+    font-size: 30px;
+
+}
+
+
+.textos {
+
+    font-family: 'Montsserat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 5% 15% 0% 15%;
+    padding: 1%;
+
+}
+
+.textos img {
+
+    border: white 2px solid;
+    border-radius: 15%;
+    margin-left: 5%;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+.textos2 {
+
+    font-family: 'Montsserat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 5% 15% 0% 15%;
+    padding: 1%;
+
+}
+
+.textos2 img {
+
+    border: white 2px solid;
+    border-radius: 15%;
+    margin-right: 3%;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+.textos, .textos2 {
+
+    border: solid black 4px;
+    border-radius: 30px;
+    background-color: rgb(0, 46, 0);
+
+}
+
+.textos:hover, .textos2:hover {
+
+    transition: 1s;
+    transform: scale(1.02);
+    border: solid #086114 4px;
+    border-radius: 50px;
+    background-color: rgb(8, 63, 8);
+
+}
+
+.introducao {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 30px;
+    margin: 0% 20% 10% 20%;
+    text-align: center;
+    background-color: rgba(31, 85, 0, 0.322);
+    padding: 1%;
+    border-radius: 30px;
+
+}
+
+.introducao:hover {
+
+    transition: .5s;
+    background: linear-gradient(#003307, rgb(2, 53, 2), #083b0f, rgb(9, 68, 14));
+    letter-spacing: .3px;
+    border: #075e12 solid 4px;
+
+}
+
+.ultimo{
+
+    display: flex;
     padding-bottom: 5%;
 
 }
 
 /*media query*/
-@media (max-width: 1021) {
+@media (max-width: 1522px) {
 
+    .textos, .textos2 {
 
+        margin: 5% 8% 0% 8%;
+
+    }
+
+}
+
+@media (max-width: 1261px) {
+
+    .textos, .textos2 {
+
+        margin: 5% 2% 0% 2%;
+
+    }
+
+}
+
+@media (max-width: 1137px) {
+
+    .textos img, .textos2 img {
+
+        display: none;
+
+    }
+
+    .textos, .textos2 {
+
+        margin: 5% 5% 0% 5%;
+        padding: 3%;
+
+    }
+
+    .texto-desenv p {
+
+        margin: 5% 10% 20% 10%;
+
+    }
+
+}
+
+@media (max-width: 866px) {
+
+    .titulo {
+
+        font-size: 70px;
+
+    }
+
+    .sombra h1 {
+
+        -webkit-text-stroke: 0px;
+        -webkit-text-stroke-color: none;
+
+    }
+
+    .texto-desenv p {
+
+        font-size: 20px;
+        margin: 5% 5% 20% 5%;
+
+    }
+
+    .introducao {
+
+        font-size: 24px;
+        padding: 2%;
+        margin: 0% 10% 10% 10%;
+
+    }
+
+}
+
+@media (max-width: 726px) {
+
+    .titulo {
+
+        font-size: 50px;
+
+    }
+
+    .introducao {
+
+        margin: 0% 10% 10% 10%;
+        border-radius: 10px;
+
+    }
+
+    .curiosidades ul {
+
+        font-size: 20px;
+    
+    }
+
+}
+
+@media (max-width: 513px) {
+
+    .texto-desenv p {
+
+        padding: 5%;
+        border-radius: 10px;
+
+    }
+
+    .curiosidades ul {
+
+        font-size: 20px;
+        padding: 5%;
+    
+    }
+
+}
+
+@media (max-width: 473px) {
+
+    .titulo {
+
+        font-size: 40px;
+
+    }
+
+    .introducao {
+
+        font-size: 20px;
+        margin: 0% 5% 20% 5%;
+
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .titulo {
+
+        font-size: 30px;
+
+    }
+
+}
+
+@media (max-width: 303px) {
+
+    .titulo {
+
+        font-size: 20px;
+
+    }
 
 }

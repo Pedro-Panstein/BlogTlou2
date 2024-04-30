@@ -442,6 +442,12 @@ iframe {
 
     }
 
+    .footer {
+
+        font-size: 10px;
+
+    }
+
 }
 
 @media (max-width: 343px) {
@@ -487,6 +493,16 @@ iframe {
     .cabecalho h1 {
 
         font-size: 30px;
+
+    }
+
+}
+
+@media (max-width: 303px) {
+
+    .footer {
+
+        font-size: 8px;
 
     }
 
