@@ -1,7 +1,17 @@
 .sec {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: linear-gradient(#003329, #003329, #003329, #001d18, #00110e, #000000);
     height: 100vh;
     color: #fff;
+    padding-top: 20%;
+
+}
+
+.sec p {
+
+    width: 90%;
 
 }
