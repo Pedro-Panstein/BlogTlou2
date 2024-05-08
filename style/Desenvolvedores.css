@@ -49,7 +49,7 @@
     text-align: center;
     z-index: 8;
     display: flex;
-    align-items: center;
+    padding-top: 15%;
 
 }
 
@@ -177,9 +177,9 @@
 
 .introducao:hover {
 
-    transition: .5s;
+    transform: scale(1.03);
+    transition: 2s;
     background: linear-gradient(#003307, rgb(2, 53, 2), #083b0f, rgb(9, 68, 14));
-    letter-spacing: .3px;
     border: #075e12 solid 4px;
 
 }
