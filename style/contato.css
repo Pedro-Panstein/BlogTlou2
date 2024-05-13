@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(#2d5927, #275932, #004e03);
+}
+
 main {
     
     height: 100%;
@@ -7,7 +11,6 @@ main {
 }
 
 main a{
-    text-decoration: underline;
     color: #00ff08;
 }
 
@@ -103,11 +106,17 @@ main a:hover{
     margin-top: 7%;
 }
 
+.contatos a {
+    text-decoration: underline;
+}
+
 .contatos ul{
     color: #fff;
     text-align: justify;
     margin: 5% auto;
     font-size: 25px;
+    padding-bottom: 9%;
+    padding-top: 5%;
 }
 
 .contatos span{
@@ -116,4 +125,106 @@ main a:hover{
 
 .email{
    padding: 10% 0% 10% 0%; 
+}
+
+@media (max-width: 1274px) {
+    .textos img, .textos2 img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 1118px){
+    .textos img, .textos2 img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .redes-sociais ul{
+        font-size: 15px;
+        padding: 4%;
+    }
+}
+
+@media (max-width: 1118px){
+    .contatos h2{
+        font-size: 30px;
+    }
+    
+    .contatos ul{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 716px){
+
+    .contatos h2{
+        font-size: 25px;
+    }
+    
+    .contatos ul{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 518px){
+
+    .redes-sociais h2{
+        font-size: 30px;
+    }
+
+    .textos img, .textos2 img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .redes-sociais ul{
+        font-size: 10px;
+        padding: 6%;
+    }
+}
+
+@media (max-width: 470px) {
+    .contatos h2{
+        font-size: 20px;
+    }
+    
+    .contatos ul{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 428px) {
+    .contatos h2{
+        font-size: 20px;
+    }
+    
+    .contatos ul{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 306px) {
+    
+    .redes-sociais h2{
+        font-size: 15px;
+    }
+
+    .textos img, .textos2 img{
+        display: none;
+    }
+
+    .redes-sociais ul{
+        font-size: 8px;
+        padding: 8%;
+        margin: 2%;
+    }
+    
+    .contatos h2{
+        font-size: 15px;
+    }
+    
+    .contatos ul{
+        font-size: 8px;
+    }
 }
