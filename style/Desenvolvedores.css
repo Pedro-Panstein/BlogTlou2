@@ -49,7 +49,7 @@
     text-align: center;
     z-index: 8;
     display: flex;
-    padding-top: 15%;
+    align-items: center;
 
 }
 
