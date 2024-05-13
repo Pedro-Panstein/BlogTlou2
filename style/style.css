@@ -414,6 +414,14 @@ iframe {
 
 }
 
+@media (max-width: 527px){
+    .cabecalho p, img {
+
+        display: none;
+
+    }
+}
+
 @media (max-width: 450px) {
 
     .article {
